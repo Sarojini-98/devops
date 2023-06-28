@@ -1,0 +1,14 @@
+public class palindrome {
+    public static void main(String args[]){
+        int num=121;
+        int rev=0,temp=num;
+        while(num!=0){
+            int n=num%10;
+            rev=rev*10+n;
+            num=num/10;
+        }
+    
+    System.out.println(rev);
+    System.out.println((rev==temp)?"num is palindrome":"num is not a palindrome");
+    }  
+}
