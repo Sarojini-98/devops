@@ -1,0 +1,13 @@
+public class exm {
+    public static void main(String args[]){
+        int pin=1223;
+        System.out.println("welcome to SBI atm.......");
+        if(pin==1221){
+            System.out.println("unlocked");
+        }else{
+            System.out.println("wrong pin");
+        }
+    }
+    
+}
+
